@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on wyzmlr</title>
+    <link>https://wyzmlr.github.io/categories/</link>
+    <description>Recent content in Categories on wyzmlr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Nov 2019 15:45:53 +0000</lastBuildDate><atom:link href="https://wyzmlr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动安全</title>
+      <link>https://wyzmlr.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Fri, 08 Nov 2019 15:45:53 +0000</pubDate>
+      
+      <guid>https://wyzmlr.github.io/categories/%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

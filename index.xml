@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>wyzmlr</title>
+    <link>https://wyzmlr.github.io/</link>
+    <description>Recent content on wyzmlr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Nov 2019 15:45:53 +0000</lastBuildDate><atom:link href="https://wyzmlr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frida在APP远程加解密中的应用</title>
+      <link>https://wyzmlr.github.io/post/frida%E5%9C%A8app%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%A7%A3%E5%AF%86%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Fri, 08 Nov 2019 15:45:53 +0000</pubDate>
+      
+      <guid>https://wyzmlr.github.io/post/frida%E5%9C%A8app%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%A7%A3%E5%AF%86%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <description>&lt;h1 id=&#34;1简介&#34;&gt;1.简介&lt;/h1&gt;
+&lt;p&gt;工作项目中经常会遇到金融客户需要做APP渗透测试，测试过程中发现大多数APP的通信协议做了手脚，要么是无法抓包、要么是无法看到抓到包的详细内容，遇到加壳的情况又很多，此时又要脱壳、又要分析算法、又要实现解密工具，头都大了，难不成提交&amp;quot;0高位、0中危、0低危&amp;quot;？我怕客户投诉我！幸亏各种HOOK框架的产生让我疏了口气，本文使用Frida框架，基于Frida的工具有几个，brida就是其中一个，但其实际意义不高，实际操作中，客户端的Request只有Encode，没有Decode，且非对称加密，没机会调用函数加密解密，并且繁琐，不通用。另外在使用了市面上其他工具后发现都存在这样的问题，所以才产生了本文的实现方式——利用Frida、Burp Suite、Python实现在APP数据加密前进行拦截并远程修改明文内容后再加密发送并解密Response包。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://wyzmlr.github.io/sitemap.xml
